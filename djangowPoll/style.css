@@ -12,8 +12,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * "custom" refers to the theme assigned to the poll element
 */
 .custom {
-    background: #000;
-    width: 400px;
+    background: url("https://fannywho.github.io/twitchStuff/djangowPoll/bg.png");
+    width: 415px;
+    height: 415px;
     transition: opacity 1s;
     padding: 10px;
     font-family: Abel;
@@ -26,14 +27,14 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 
 .custom .metaInfo {
-    background: green;
+    background: none;
     overflow: hidden;
     padding: 0 10px;
 }
 
 .custom .total,
 .custom .duration {
-    background: #444;
+    background: none;
     float: left;
     width: 49%;
     text-align: center;
@@ -44,7 +45,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom .total strong,
 .custom .duration strong {
-    color: #ffa;
+    color: #000;
     font-size: 20px;
     display: block;
 }
@@ -61,7 +62,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom.finished .options li.highest,
 .custom.removing .options li.highest {
-    color: #ffa;
+    color: #000;
     opacity: 1;
 }
 
@@ -83,9 +84,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
     position: relative;
     border: 1px;
     padding: 10px;
-    color: #fff;
+    color: #000;
     text-overflow: ellipsis;
-    background: #888;
+    background: none;
     padding-right: 55px;
     padding-left: 55px;
     font-size: 15px;
@@ -102,7 +103,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 
 .custom .options li.help {
-    background: brown;
+    background: none;
     text-align: center;
     overflow: hidden;
     height: 0;
@@ -121,20 +122,20 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom .options li .number {
     padding: 5px 10px;
-    background: #333;
+    background: none;
     position: absolute;
     top: 5px;
     left: 10px;
 }
 
 .custom .options li .bar {
-    background: #444;
+    background: none;
     height: 5px;
     margin-top: 5px;
 }
 
 .custom .options li .bar .bar-inner {
-    background: #fff;
+    background: none;
     height: 100%;
     width: 0;
     transition: width 1s;
@@ -149,7 +150,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * Optional outer border
 */
 .custom .border {
-    border: 5px solid red;
+    border: 0;
 }
 
 
