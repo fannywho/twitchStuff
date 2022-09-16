@@ -27,12 +27,17 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 .custom {
     background: url("https://fannywho.github.io/twitchStuff/djangowPoll/assets/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 415px;
-    height: 415px;
+    min-height: 415px;
     transition: opacity 1s;
     padding: 10px;
     font-family: 'adderville_itc_stdmedium', Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 16px;
     opacity: 0;
+    text-shadow: 0px 1px 1px rgb(255 255 255 / 70%);
 }
 
 .custom.finished,
@@ -59,7 +64,6 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom .total strong,
 .custom .duration strong {
-    color: #000;
     font-size: 20px;
     display: block;
 }
@@ -76,7 +80,6 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom.finished .options li.highest,
 .custom.removing .options li.highest {
-    color: #000;
     opacity: 1;
 }
 
@@ -98,7 +101,6 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
     position: relative;
     border: 1px;
     padding: 10px;
-    color: #000;
     text-overflow: ellipsis;
     background: none;
     padding-right: 55px;
@@ -136,6 +138,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom .options li .number {
     font-family: 'gelio_pasteliregular', Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
     padding: 5px 10px;
     background: none;
     position: absolute;
@@ -144,13 +147,13 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 
 .custom .options li .bar {
-    background: none;
+    background: #CCC;
     height: 5px;
     margin-top: 5px;
 }
 
 .custom .options li .bar .bar-inner {
-    background: none;
+    background: #000;
     height: 100%;
     width: 0;
     transition: width 1s;
@@ -159,6 +162,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom .options li .text {
     line-height: 1.3;
+    font-size: 1.2rem;
 }
 
 /*
