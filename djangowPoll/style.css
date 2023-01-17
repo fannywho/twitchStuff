@@ -7,25 +7,17 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 
 @font-face {
-    font-family: 'adderville_itc_stdmedium';
-    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/addervillei-medium-webfont.woff2') format('woff2'),
-        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/addervillei-medium-webfont.woff') format('woff');
+    font-family: 'JMH-Typewriter-Black';
+    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/JMH-Typewriter-Black.woff2') format('woff2'),
+        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/JMH-Typewriter-Black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'gelio_pasteliregular';
-    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/gelio_pasteli-webfont.woff2') format('woff2'),
-        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/gelio_pasteli-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'gelio_fasoladaregular';
-    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/gelio_fasolada-webfont.woff2') format('woff2'),
-        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/gelio_fasolada-webfont.woff') format('woff');
+    font-family: 'Monotype-FuturaNowHeadlineBd';
+    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/Monotype-FuturaNowHeadlineBd.woff2') format('woff2'),
+        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/Monotype-FuturaNowHeadlineBd.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -41,11 +33,15 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
     min-height: 415px;
     transition: opacity 1s;
     padding: 10px;
-    font-family: 'adderville_itc_stdmedium', Arial, Helvetica, sans-serif;
+    font-family: 'JMH-Typewriter-Black', Arial, Helvetica, sans-serif;
     color: #1C1C1C;
     font-size: 16px;
     opacity: 0;
     text-shadow: 0px 1px 1px rgb(255 255 255 / 70%);
+}
+
+.custom .inner {
+    padding: 20px 10px;
 }
 
 .custom.finished,
@@ -148,7 +144,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 
 .custom .options li .number {
-    font-family: 'gelio_fasoladaregular', Arial, Helvetica, sans-serif;
+    font-family: 'Monotype-FuturaNowHeadlineBd', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     padding: 5px 10px;
     background: none;
