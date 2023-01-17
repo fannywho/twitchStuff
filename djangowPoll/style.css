@@ -7,9 +7,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 
 @font-face {
-    font-family: 'JMH-Typewriter-Black';
-    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/JMH-Typewriter-Black.woff2') format('woff2'),
-        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/JMH-Typewriter-Black.woff') format('woff');
+    font-family: 'JMH-Typewriter-Bold';
+    src: url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/JMH-Typewriter-Bold.woff2') format('woff2'),
+        url('https://fannywho.github.io/twitchStuff/djangowPoll/fonts/JMH-Typewriter-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,7 +33,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
     min-height: 415px;
     transition: opacity 1s;
     padding: 10px;
-    font-family: 'JMH-Typewriter-Black', Arial, Helvetica, sans-serif;
+    font-family: 'JMH-Typewriter-Bold', Arial, Helvetica, sans-serif;
     color: #1C1C1C;
     font-size: 16px;
     opacity: 0;
@@ -144,7 +144,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 
 .custom .options li .number {
-    font-family: 'Monotype-FuturaNowHeadlineBd', Arial, Helvetica, sans-serif;
+    /* font-family: 'Monotype-FuturaNowHeadlineBd', Arial, Helvetica, sans-serif; */
     font-size: 1.5rem;
     padding: 5px 10px;
     background: none;
